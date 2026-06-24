@@ -3,7 +3,7 @@ import InputForm from "./components/InputForm.jsx";
 import ResultDisplay from "./components/ResultDisplay.jsx";
 
 // Change this to your deployed backend URL once hosted on Render
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://esha-bajaj-oa1.onrender.com";
 
 function App() {
   const [result, setResult] = useState(null);
